@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.venv/
+# generated output at repo root (a sample copy lives in docs/)
+/tearsheet.png
+# large source data (the pipeline rebuilds data/prices.csv from this)
+all_stocks_5yr.csv
+.DS_Store
